@@ -1,0 +1,26 @@
+ body {
+     background-color: whitesmoke;
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+     flex-direction: column;
+ }
+
+ .covidImage {
+    width: 375px;
+    margin-top: 50px;
+ }
+
+  /* for making the responsive site we use @media query below  */
+ @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .covidImage {
+      width: 100%;
+    }
+  }
