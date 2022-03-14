@@ -17,6 +17,7 @@ export const fetchData = async (countryName)=> {
     try {
 
         let { data } = await axios.get(changeURL);
+        // console.log(data);
 
         let getingData = {
 
